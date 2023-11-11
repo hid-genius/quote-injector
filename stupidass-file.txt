@@ -6,3 +6,4 @@
 {"quote":"Winning is the only option"}
 {"quote":"Keep squares out yo circle"}
 {"quote":"You can't look at a glass half full or empty if it's overflowing."}
+{"quote":"Tweeting is legal and also therapeutic"}
