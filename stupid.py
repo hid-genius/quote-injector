@@ -2,14 +2,17 @@ import requests
 import json
 
 
-print("woooow")
-
 def get_quote():
-    print('omgomg')
     response = requests.get("https://api.kanye.rest/")
     quote = response.text
-    
-    print(quote)
+    print('wow what genius:', quote)
+    return quote
 
 
-get_quote()
+def append_file():
+    quote = get_quote()
+
+    with open("stupidass-file.txt", "a") as stupid_smell:
+        stupid_smell.write(f"{quote}\n")
+
+append_file()
